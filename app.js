@@ -1,22 +1,10 @@
-const fs = require('fs');
-const path = require('path')
-const dir = '/Users/nhathoang/Documents/BT-JS/Folder/folder-parent'
-const getFilesFromDirectory = (directoryPath) => {
-    const filesInDirectory = fs.readdirSync(directoryPath);
-    const files = filesInDirectory.map((file) => {
-        const filePath = path.join(directoryPath, file);
-        const stats = fs.statSync(filePath);
+setTimeout(() => {
+    console.log('Hello!!!');
+}, 1000);
 
-        if (stats.isDirectory()) {
-            return getFilesFromDirectory(filePath);
-        } else {
-            return filePath;
-        }
-    });
+let startDate = new Date().getTime();
+let endDate = startDate;
 
-    // return files.filter((file) => file.length);
-
-
-};
-
-console.log(getFilesFromDirectory(dir));
+while (endDate < startDate + 3000) {
+    endDate = new Date().getTime();
+}
