@@ -9,7 +9,7 @@ const getFilesFromDirectory = (directoryPath) => {
         var filePath = path.join(directoryPath, filesInDirectory[i]);
         var stats = fs.statSync(filePath);
         if (stats.isDirectory()) {
-             getFilesFromDirectory(filePath);
+            getFilesFromDirectory(filePath);
         } else {
             var reg_txt = /^.*\.(txt)$/.exec(filePath)
             if (reg_txt != null) {
@@ -23,7 +23,8 @@ const getFilesFromDirectory = (directoryPath) => {
         // return files.filter((file) => file.length);
     };
 
-    console.log(result)
 };
 
 getFilesFromDirectory(dir)
+console.log(result)
+
