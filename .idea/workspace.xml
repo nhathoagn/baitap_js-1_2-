@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a689862-8376-4145-adfe-5b1d1efbe6ca" name="Changes" comment="add bai1">
+      <change afterPath="$PROJECT_DIR$/test-bai2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app2_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app2_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder-parent/folder-1/text-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/folder-parent/folder-1/text-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder-parent/folder-1/text-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/folder-parent/folder-1/text-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder-parent/folder-2/text-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/folder-parent/folder-2/text-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folder-parent/folder-2/text-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/folder-parent/folder-2/text-4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,14 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="4" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test-bai2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app2_2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,12 +47,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/folder-parent/folder-4" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.app2_2.js">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/folder-parent/folder-4" />
+      <recent name="$PROJECT_DIR$/folder-parent/folder-3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app2.js">
     <configuration name="app2_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app2_2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -48,12 +73,16 @@
     <configuration name="promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/promise.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="test-bai2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test-bai2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app2_2.js" />
         <item itemvalue="Node.js.app2.js" />
-        <item itemvalue="Node.js.promise.js" />
         <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.test-bai2.js" />
+        <item itemvalue="Node.js.app2_2.js" />
+        <item itemvalue="Node.js.promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +115,9 @@
       <workItem from="1648187458177" duration="1382000" />
       <workItem from="1648217276116" duration="4467000" />
       <workItem from="1648269793684" duration="5558000" />
+      <workItem from="1648794195932" duration="11542000" />
+      <workItem from="1648904604509" duration="599000" />
+      <workItem from="1648906120177" duration="9927000" />
     </task>
     <task id="LOCAL-00001" summary="add bai1">
       <created>1648179476164</created>

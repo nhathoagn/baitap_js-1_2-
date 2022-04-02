@@ -1,37 +1,37 @@
 const fs = require('fs');
 const path = require('path')
-const dir = '/Users/nhathoang/Documents/BT-JS/Folder/folder-parent'
-var extention = '.txt'
- var result = []
-var  getFilesFromDirectory = (directoryPath) => {
-    var filesInDirectory = fs.readdirSync(directoryPath);
-        var files = filesInDirectory.map((file) => {
-                var filePath = path.join(directoryPath, file);
-                var stats = fs.statSync(filePath);
-                if (stats.isDirectory()) {
-                       getFilesFromDirectory(filePath);
 
-                } else {
-                    // return filePath;
-                    var reg_txt = /^.*\.(txt)$/.exec(filePath)
-                    if (reg_txt != null){
-                    let  data  = fs.readFileSync(filePath, {encoding: 'utf8', flags: 'r'})
-                        result.push(data)
-                    }
+let result = []
 
-                    // var data = fs.readFileSync(filePath, {encoding: 'utf8', flags: 'r'})
-                    // console.log(data)
-                }
+function loop_dir(dir) {
+    fs.readdirSync(dir).map((file) => {
+        const filePath = path.join(dir, file)
+        const stats = fs.statSync(filePath);
+        if (stats.isDirectory()) {
+            loop_dir(filePath);
+        } else {
+            result.push(readFile(filePath))
+        }
+    });
+}
 
-        });
+function readFile(filePath) {
+    let reg_txt = /^.*\.(txt)$/.exec(filePath);
+    if (reg_txt != null) {
+        return fs.readFileSync(filePath, {encoding: 'utf8', flags: 'r'})
+    }
+}
 
+function main() {
+    const dir = '/Users/nhathoang/Documents/Javascript/BT2/baitap_js-1_2-/folder-parent/'
+    loop_dir(dir)
+    console.log(result)
+}
 
+function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+}
 
+main()
+// console.log(result)
 
-    // console.log(result.toString())
-
-
-    // return files.filter((file) => file.length);
-};
-getFilesFromDirectory(dir)
-console.log(result)
